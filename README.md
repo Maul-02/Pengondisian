@@ -25,3 +25,70 @@ Perintah yang sering digunakan dalam penggunaan Command line
    Menyimpan & Keluar: Tekan Ctrl + O, lalu Enter (untuk menyimpan), dan Ctrl + X (untuk keluar).
 8.
 9.
+
+cheat sheet
+
+1. Repository = Repository (Repo)
+
+   Tempat penyimpanan project Git (folder yang berisi file + riwayat versi)
+   Perintah:
+
+   git init # membuat repo baru
+   git clone URL # menyalin repo dari remote
+
+2. commit = Snapshot/perubahan yang disimpan ke riwayat Git
+   Perintah:
+
+   git add .
+   git commit -m "pesan commit"
+
+3. Hash = ID unik dari setiap commit (contoh: a1b2c3d...)
+   Digunakan untuk identifikasi commit
+   Perintah:
+
+   git log
+
+4. Checkout =
+   Berpindah ke branch atau commit tertentu
+   Perintah:
+
+   git checkout nama-branch
+   git checkout hash_commit
+
+5. Branch =
+   Cabang pengembangan terpisah dari main
+   Perintah:
+
+   git branch nama-branch
+   git checkout nama-branch
+
+6. Merge =
+   Menggabungkan branch ke branch lain
+   Perintah:
+
+   git merge nama-branch
+
+7. Remote =
+   Repo yang ada di server (misalnya GitHub)
+   Perintah:
+
+   git remote add origin URL
+   git remote -v
+
+8. Clone =
+   Menyalin repo dari remote ke lokal
+   Perintah:
+
+   git clone URL
+
+9. Push =
+   Mengirim perubahan dari lokal ke remote
+   Perintah:
+
+   git push origin nama-branch
+
+10. Pull =
+    Mengambil update dari remote ke lokal
+    Perintah:
+
+    git pull origin nama-branch
