@@ -20,6 +20,8 @@ Perintah yang sering digunakan dalam penggunaan Command line
 4. chmod
 5. cd ..
 6. perintah untuk menghapus apa?git rm <nama_file>
-7.
+7. Perintah: nano nama_file.txt
+   Cara Mengedit: Gunakan tombol panah untuk navigasi dan ketik langsung.
+   Menyimpan & Keluar: Tekan Ctrl + O, lalu Enter (untuk menyimpan), dan Ctrl + X (untuk keluar).
 8.
 9.
